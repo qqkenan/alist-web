@@ -49,8 +49,8 @@
     <div v-show="previewShow.m3u8" id="m3u8-preview"></div>
     <!-- 音频预览 -->
     <div class="audio-preview" v-show="previewShow.audio" id="audio-preview"></div>
-    <a href="https://wx.fulibar.net/2193" target="_blank"><img src="/static/img/wm.png" style=" width: 100%;"></a>
-    <div style="background-color: #ecefff;padding: 10px;font-weight: bold;">提醒：观看下载有问题请联系（微信号：fulibar.net）</div>
+     <a href="https://wx.fulibar.net/2193" target="_blank"><img src="/static/img/wm.png" style=" width: 100%;"></a>
+    <div style="background-color: #ecefff;padding: 10px;font-weight: bold;">提醒：观看有问题请联系（微信号：fulibar.net）</div>
   </div>
 </template>
 
