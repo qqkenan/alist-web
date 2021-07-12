@@ -29,6 +29,21 @@
           <template #icon><retweet /></template>
         </a-button>
       </a-space>
+        <a-space v-if="type === 'file'">
+        <a-button
+          type="primary"
+          shape="circle"
+          size="large"
+          @click="copyFileLink"
+        >
+          <template #icon><copy /></template>
+        </a-button>
+        <a target="_blank" :href="downloadUrl">
+          <a-button type="primary" shape="circle" size="large">
+            <template #icon><download /></template>
+          </a-button>
+        </a>
+      </a-space>
       <a-popover title="二维码" class="qrcode">
         <template #content>
           <img :src="'https://api.xhofe.top/qr?size=200&text=' + url" />
