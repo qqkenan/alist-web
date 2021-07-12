@@ -51,7 +51,6 @@
     <div class="audio-preview" v-show="previewShow.audio" id="audio-preview"></div>
      <a href="https://wx.fulibar.net/2193" target="_blank"><img src="/static/img/wm.png" style=" width: 100%;"></a>
     <div style="background-color: #ecefff;padding: 10px;font-weight: bold;">提醒：观看有问题请联系（微信号：fulibar.net）</div>
-    <iframe  src="/static/player.html" scrolling="no" frameborder="0" style="height: 100%; width: 100%;"></iframe>
   </div>
 </template>
 
